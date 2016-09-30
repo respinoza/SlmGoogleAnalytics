@@ -159,6 +159,9 @@ class Tracker
         $this->anonymizeIp = (bool) $flag;
     }
 
+    /**
+     * @return CustomVariable[]
+     */
     public function getCustomVariables()
     {
         return $this->customVariables;

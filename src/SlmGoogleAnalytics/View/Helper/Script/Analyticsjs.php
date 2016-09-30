@@ -49,6 +49,9 @@ class Analyticsjs implements ScriptInterface
 {
     const DEFAULT_FUNCTION_NAME = 'ga';
 
+    /**
+     * @var Tracker
+     */
     protected $tracker;
     protected $function      = self::DEFAULT_FUNCTION_NAME;
     protected $loadedPlugins = array();

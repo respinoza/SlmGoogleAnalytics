@@ -50,6 +50,9 @@ class Gajs implements ScriptInterface
 {
     const METHOD_PREFIX = '_';
 
+    /**
+     * @var Tracker
+     */
     protected $tracker;
 
     public function setTracker(Tracker $tracker)
